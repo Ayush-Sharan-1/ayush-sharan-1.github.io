@@ -60,24 +60,6 @@ Patents
 * **[Sharan, Ayush] Dissociated Microgrid Controller** [20250260235] filed [Feb 08, 2024] and issued [Aug 14, 2025]
 * **[Sharan, Ayush] Dynamic Reserve Evaluation for Microgrid Controls** [19/289465] filed [Aug 4, 2025] Patent Pending
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
