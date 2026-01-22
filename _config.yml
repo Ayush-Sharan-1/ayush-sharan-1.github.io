@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Ayush Sharan"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Master of Science in Robotics Systems Development at Carnegie Mellon University."
+  location         : "Pittsburgh, PA"
+  School         : "Carnegie Mellon University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "asharan2@andrew.cmu.edu" 
 
   # Academic websites
   academia         : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "ayush-sharan" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
