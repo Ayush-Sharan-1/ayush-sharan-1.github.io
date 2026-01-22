@@ -1,152 +1,146 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Ayush Sharan",
+    "email": "asharan2@andrew.cmu.edu",
+    "phone": "(412) 398-1677",
+    "website": "https://ayush-sharan-1.github.io",
+    "summary": "Master of Science in Robotics Systems Development at Carnegie Mellon University. Senior Associate Engineer at Caterpillar Inc, specializing in reinforcement learning, robotics, and control systems.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Pittsburgh",
       "countryCode": "US",
-      "region": ""
+      "region": "PA"
     },
     "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ayush-sharan",
+        "url": "https://www.linkedin.com/in/ayush-sharan/"
+      },
       {
         "network": "Google Scholar",
         "username": "",
         "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "ayush-sharan-1",
+        "url": "https://github.com/ayush-sharan-1"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Caterpillar Inc",
+      "position": "Senior Associate Engineer",
+      "website": "",
+      "startDate": "2022-07",
+      "endDate": "2025-04",
+      "summary": "Developed reinforcement learning-based microgrid controllers, scheduling systems for EV mining trucks, and Hardware-in-the-Loop test benches.",
+      "highlights": [
+        "Developed a Soft Actor-Critic (SAC) reinforcement learning-based microgrid energy management controller, achieving a median 5% reduction in operating costs over the rule-based controller across diverse 24-hour cycles.",
+        "Curated and processed rule-based controller field data to bootstrap model learning via off-policy training.",
+        "Built a high-fidelity microgrid simulation model in MATLAB Simulink for online training and validation.",
+        "Developed a rule-based charging scheduler and A*-based route planner in ROS2 for electric mining trucks, integrated with the microgrid and its controller.",
+        "Presented analysis showing a 5% reduction in operating costs to senior leadership, driving inclusion of the feature in the product roadmap.",
+        "Defined system requirements and architecture, and led a team of 3 engineers in designing and delivering a HIL test bench for Microgrid controller validation.",
+        "Integrated 7 embedded ECMs with a real-time simulation platform through CAN, Modbus, and digital/analog I/O.",
+        "Developed microgrid simulation models in MATLAB, implementing generator control systems with PI frequency control (Governor), PI voltage control (AVR), and droop-based load sharing.",
+        "Collaborated with cross-functional teams to define requirements, plan, and execute validation, achieving a 95% defect detection rate."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "Carnegie Mellon University",
+      "area": "Master of Science in Robotics Systems Development",
+      "studyType": "Master of Science",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "endDate": "2027-05",
+      "gpa": "4.08",
+      "courses": [
+        "16-720 Computer Vision",
+        "16-665 Robot Mobility (Legged locomotion dynamics and control (LIPM, spring mass models))",
+        "16-833 Robot Localization and Mapping"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "National Institute of Technology Karnataka, Surathkal",
+      "area": "Bachelor of Technology in Mechanical Engineering",
+      "studyType": "Bachelor of Technology",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "endDate": "2022-10",
+      "gpa": "9.47",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C++",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Tools & Software",
+      "level": "",
+      "keywords": [
+        "ROS2",
+        "PyTorch",
+        "OpenCV",
+        "Gazebo",
+        "MoveIt",
+        "RViz",
+        "Git",
+        "MATLAB Simulink",
+        "Linux"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Imitation Learning and Perception for a Tic Tac Toe Robot",
+      "category": "project",
+      "date": "2025-05",
+      "endDate": "2025-07",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Implemented a computer vision pipeline for board detection and classification followed by a hierarchical system for playing by integrating a Tic Tac Toe Minimax strategy engine with an Action Chunking Transformer (ACT) policy, deployed on the LeRobot SO100 6-DOF manipulator. Developed the computer vision pipeline using ORB feature matching and homography estimation to detect and rectify the Tic Tac Toe board, followed by HSV-based classification to infer the game state. Extended the ACT architecture with language conditioning, enabling execution of different moves through simple natural language input under a single policy. Integrated spatial attention maps to visualize action selection and improve the interpretability of the learned policy."
+    },
+    {
+      "name": "Dual-Arm Robot for Medical Inventory Labeling",
+      "category": "project",
+      "date": "2025-09",
+      "endDate": "",
+      "url": "",
+      "description": "CMU Capstone Project - Developing a dual-arm robotic system with two X-Arm 7's in collaboration with UPMC for applying RFID labels to medical items, to improve item tracking efficiency within the Operating Room supply rooms. Focusing on designing the motion and grasp planning pipeline for item pick-and-place operations and the precise application of RFID stickers for medical items of varying form factors, rigidity, and transparency."
+    }
+  ],
+  "patents": [
+    {
+      "name": "Dissociated Microgrid Controller",
+      "number": "20250260235",
+      "date": "2024-02-08",
+      "issuedDate": "2025-08-14",
+      "status": "Issued",
+      "inventors": ["Ayush Sharan"]
+    },
+    {
+      "name": "Dynamic Reserve Evaluation for Microgrid Controls",
+      "number": "19/289465",
+      "date": "2025-08-04",
+      "issuedDate": "",
+      "status": "Pending",
+      "inventors": ["Ayush Sharan"]
     }
   ]
 }
